@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'BeaufortforLOL-Bold';
+    src: url('./fonts/BeaufortforLOL/BeaufortforLOL-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: "BeaufortforLOL-Bold";
+    font-weight: 700;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.header .banner {
+    width: 100%;
+}
+
+.header .logo {
+    margin: 32px 840px;
+}
+
+.header .nav-bar{
+    margin: 0 604px;
+}
+
+.header .nav-bar ul{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 32px;
+}
+.header .nav-bar li{
+    display: inline-block;
+    white-space: nowrap;
+    list-style: none;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.content .spotlight{
+    margin: 62px 256px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.content .spotlight .spotlight-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.content .spotlight .spotlight-item .image{
+    width: 120px;
+    height: 120px;
+    display: block;
+}
+
+.content .spotlight .spotlight-item .info {
+    width: 308px;
+}
+
+.content .spotlight .spotlight-item .info .category{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #aeaeae;
+}
+
+.content .spotlight .spotlight-item .info .title{
+    font-size: 18px;
+    margin: 7px 0;
+}
+
+.content .spotlight .spotlight-item .info .content{
+    font-size: 16px;
+}
+
+.content .recent-post {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    margin: 34px 256px;
+}
+
+.content .recent-post .recent-post-item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    padding-bottom: 32px;
+}
+
+.content .recent-post .recent-post-items .image img{
+    width: 448px;
+    height: 252px;
+    display: block;
+}
+
+.content .recent-post .recent-post-item .info{
+    margin: 50px 0;
+    width: 448px;
+}
+
+.content .recent-post .recent-post-item .info .category{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #0be7e7;
+}
+
+.content .recent-post .recent-post-item .info .title{
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+.content .recent-post .recent-post-item .info .content{
+    font-size: 16px;
+    margin: 8px 0;  
+}
+
+.content .recent-post .recent-post-item .info .author{
+    font-size: 16px;
+    margin-top: 24px;
+    color: #aeaeae;
+}
+
+.content .recent-post .recent-post-items .more{
+    border-top: solid 1px #B5B5B5;
+    margin: 32px 0;
+    text-align: right;
+}
+
+.content .recent-post .recent-post-items .more p{
+    display: inline;
+}
+
+.content .recent-post .recent-post-items .more img{
+    margin: 18px;
+    margin-right: 0;
+    display: inline;
+    vertical-align: middle;
+}
+
+.content .checkout {
+    background-color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 256px;
+    width: 1409px;
+}
+
+.content .checkout p{
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+}

@@ -1,0 +1,66 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.nav-bar {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 100px;
+    float: right;
+}
+
+.nav-bar ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-bar li :hover {
+    color: #ad5727;
+    font: bold;
+}
+
+.logo {
+    float: left;
+    margin: 10px 100px;
+}
+
+.our-team-title {
+    margin: 0px 50px;
+    margin-top: 50px;
+}
+
+.our-team-title p:first-child {
+    font-size: 12px;
+    font-weight: 400;
+    color: #9C9C9C;
+    margin: 0;
+}
+
+.our-team-title p:last-child{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.team-list li {
+    display: inline-block;
+    margin: 10px;
+    padding: 0;
+    width: 360px;
+}
+
+.team-list .name {
+    font-weight: 700;
+}
