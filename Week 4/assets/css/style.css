@@ -13,206 +13,246 @@
     color: red;
 }
 
-.header .header-top {
+/* HEADER */
+
+.header-top {
+    margin: 20px 256px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 20px 256px;
     align-items: center;
 }
 
-.header .header-top .nav-bar ul {
+.nav-bar ul {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 32px;
     list-style: none;
 }
 
-.header .header-top .nav-bar li :hover {
+.nav-bar li {
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-bar li:hover {
+    transform: scale(1.1);
+}
+
+.nav-bar li :hover {
     color: #c8aa6e;
 }
 
-.header .header-top .nav-bar li a {
+.nav-bar a {
     text-decoration: none;
     white-space: nowrap;
 }
 
-.header .banner {
+.banner {
     width: 1920px;
     height: 800px;
     margin-bottom: 64px;
 }
 
+/* MAIN CONTENT */
+
 .main-content {
     margin: 0 256px;
 }
 
-.main-content .champions {
-    margin-top: 64px;
-    margin-bottom: 64px;
+.champions {
+    margin: 64px 0;
 }
 
-.main-content .champions h1 {
+.champions h1 {
     text-transform: uppercase;
     font-size: 48px;
     text-align: center;
 }
 
-.main-content .champions ul {
+.champions ul {
+    margin-top: 32px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 32px;
     list-style: none;
-    margin-top: 32px;
 }
 
-.main-content .champions ul li a {
+.champions a {
     text-decoration: none;
 }
 
-.main-content .champions ul li a img {
+.champions a img {
     width: 328px;
     height: 370px;
     display: block;
 }
-.main-content .champions ul li a div {
-    display: flex;
+.champions a div {
     width: 328px;
     height: 80px;
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: #0e4c67;
 }
 
-.main-content .champions ul li a div :hover {
-    color: #c8aa6e;
-}
-
-.main-content .champions ul li a div p {
+.champions div p {
     color: #fff;
+    transition: transform 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
 }
 
-.main-content .checkout {
-    display: flex;
-    margin-top: 64px;
-    margin-bottom: 64px;
-    height: 64px;
+.champions div:hover p {
+    text-shadow: 0 0 10px #ff6600, 0 0 20px #ff3300;
+    transform: scale(1.05);
+}
+.champions div:hover {
+    color: #c8aa6e;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.checkout a {
     width: 1408px;
+    height: 64px;
+    margin: 64px 0;
+    display: flex;
     justify-content: center;
     align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
     background-color: #000;
 }
 
-.main-content .checkout a {
-    text-transform: uppercase;
+.checkout a p {
     color: #fff;
-    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
 }
 
-.main-content .embeded-video {
+.checkout a:hover p {
+    transform: scale(1.03);
+}
+
+.embedded-video {
     width: 1408px;
     height: 636px;
+    margin: 64px 0;
     background-image: url("../images/image 45.png");
-    margin-top: 64px;
-    margin-bottom: 64px;
 }
 
-.main-content .embeded-video iframe {
+.embedded-video iframe {
     width: 1408px;
     height: 636px;
-    opacity: 0;
     border: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
 
-.main-content .embeded-video iframe:hover {
-    transition: opacity 0.5s ease-in-out;
+.embedded-video iframe:hover {
     opacity: 1;
 }
 
-.main-content .signup-banner {
+.signup-banner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 123px;
     align-items: center;
 }
 
-.main-content .signup-banner * {
+.signup-banner * {
     font-family: "Inter";
 }
 
-.main-content .signup-banner .jinx img {
+.jinx img {
     width: 688px;
     height: 840px;
+    display: block;
 }
 
-.main-content .signup-banner .signup-form {
+.signup-form {
+    width: 505px;
+    height: 641px;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     gap: 56px;
-    width: 505px;
-    height: 641px;
-    border: 1px solid #D1D5DB;
+    border: 1px solid #d1d5db;
     border-radius: 10px;
 }
 
-.main-content .signup-banner .signup-form .signup-title {
+.signup-title {
+    width: 367px;
+    height: 79px;
+    margin: 40px 69px 0;
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     gap: 16px;
-    margin: 40px 69px 0;
-    width: 367px;
-    height: 79px;
     text-align: center;
 }
-.main-content .signup-banner .signup-form .signup-title h1 { 
+
+.signup-title h1 {
     font-size: 32px;
 }
 
-.main-content .signup-banner .signup-form .signup-title p { 
+.signup-title p {
     font-weight: 400;
     font-size: 18px;
-    color: #7B8090;
+    color: #7b8090;
 }
-.main-content .signup-banner .signup-form form {
+
+.signup-form form {
+    margin: 0px 40px;
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     gap: 32px;
-    margin: 0px 40px;
 }
 
-.main-content .signup-banner .signup-form form p {
+.signup-form form p {
     font-weight: 400;
     font-size: 18px;
 }
 
-.main-content .signup-banner .signup-form form input {
-    border: none;
-    border-bottom: 1px solid #D1D5DB;
+.signup-form form input {
     width: 425px;
     height: 32px;
+    border: none;
+    border-bottom: 1px solid #d1d5db;
+    font-weight: 400;
+    font-size: 18px;
 }
 
-.main-content .signup-banner .signup-form button {
+.signup-form form input:focus {
+    outline: none;
+    border-bottom: 1px solid #f05252;
+    box-shadow: 0 1px 0 #f05252;
+}
+
+.signup-form button {
+    width: 227px;
+    height: 48px;
     margin: 0px 139px 40px;
+    border: none;
+    border-radius: 4px;
     font-size: 16px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    border-radius: 4px;
-    background-color: #F05252;
-    border: none;
     color: #fff;
-    height: 48px;
-    width: 227px;
+    background-color: #f05252;
+    transition: transform 0.3s ease-in-out;
 }
 
-.footer {
+.signup-form button:hover {
+    cursor: pointer;
+}
+
+.signup-form button:active {
+    transform: scale(0.98);
+    background-color: #e94848;
+}
+
+/* FOOTER */
+
+.footer p {
+    width: 1920px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1920px;
-    height: 100px;
-    background-color: #000;
-}
-
-.footer p {
     color: #fff;
+    background-color: #000;
 }
