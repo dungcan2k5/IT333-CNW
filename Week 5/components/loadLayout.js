@@ -25,6 +25,6 @@ function loadComponent(selector, path) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    loadComponent(".header", "/Week 5/components/header/header.xml");
-    loadComponent(".footer", "/Week 5/components/footer/footer.xml");
+    loadComponent(".header", "../../components/header/header.xml");
+    loadComponent(".footer", "../../components/footer/footer.xml");
 });

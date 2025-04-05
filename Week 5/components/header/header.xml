@@ -1,25 +1,25 @@
-<link rel="stylesheet" href="/Week 5/components/assets/styles/style.css">
-<link rel="stylesheet" href="/Week 5/components/header/assets/styles/header.css">
+<link rel="stylesheet" href="../../components/assets/styles/style.css">
+<link rel="stylesheet" href="../../components/header/assets/styles/header.css">
 <div class="header-top">
     <div class="socials">
         <ul>
-            <li><a href="./social"><img src="/Week 5/components/header/assets/images/facebook-square.png" alt=""></a>
+            <li><a href="./social"><img src="../../components/header/assets/images/facebook-square.png" alt=""></a>
             </li>
-            <li><a href="./social"><img src="/Week 5/components/header/assets/images/instagram.png" alt=""></a></li>
-            <li><a href="./social"><img src="/Week 5/components/header/assets/images/image 40.png" alt=""></a></li>
-            <li><a href="./social"><img src="/Week 5/components/header/assets/images/twitter-square.png" alt=""></a>
+            <li><a href="./social"><img src="../../components/header/assets/images/instagram.png" alt=""></a></li>
+            <li><a href="./social"><img src="../../components/header/assets/images/image 40.png" alt=""></a></li>
+            <li><a href="./social"><img src="../../components/header/assets/images/twitter-square.png" alt=""></a>
             </li>
-            <li><a href="./social"><img src="/Week 5/components/header/assets/images/youtube-square.png" alt=""></a>
+            <li><a href="./social"><img src="../../components/header/assets/images/youtube-square.png" alt=""></a>
             </li>
         </ul>
     </div>
     <div class="language">
-        <img src="/Week 5/components/header/assets/images/image 2.png" alt="">
+        <img src="../../components/header/assets/images/image 2.png" alt="">
     </div>
 </div>
 <div class="header-bot">
     <div class="logo">
-        <img src="/Week 5/components/header/assets/images/LOGO không nền 1.png" alt="">
+        <img src="../../components/header/assets/images/LOGO không nền 1.png" alt="">
     </div>
     <div class="nav-bar">
         <ul>

@@ -1,9 +1,9 @@
-<link rel="stylesheet" href="/Week 5/components/assets/styles/style.css">
-<link rel="stylesheet" href="/Week 5/components/footer/assets/styles/footer.css">
+<link rel="stylesheet" href="../../components/assets/styles/style.css">
+<link rel="stylesheet" href="../../components/footer/assets/styles/footer.css">
 
 <div class="footer-top">
     <div class="logo">
-        <img src="/Week 5/components/footer/assets/images/LOGO không nền 2.png" alt="">
+        <img src="../../components/footer/assets/images/LOGO không nền 2.png" alt="">
     </div>
     <div class="info">
         <p class="title">CÔNG TY CỔ PHẦN DỊCH VỤ RINKU</p>
@@ -63,14 +63,14 @@
         <p class="title">THEO DÕI CHÚNG TÔI</p>
         <div class="white-bar"></div>
         <ul>
-            <li><a href="./social"><img src="/Week 5/components/footer/assets/images/facebook-square.png" alt=""></a></li>
-            <li><a href="./social"><img src="/Week 5/components/footer/assets/images/instagram.png" alt=""></a></li>
-            <li><a href="./social"><img src="/Week 5/components/footer/assets/images/image 40.png" alt=""></a></li>
-            <li><a href="./social"><img src="/Week 5/components/footer/assets/images/twitter-square.png" alt=""></a></li>
-            <li><a href="./social"><img src="/Week 5/components/footer/assets/images/youtube-square.png" alt=""></a></li>
+            <li><a href="./social"><img src="../../components/footer/assets/images/facebook-square.png" alt=""></a></li>
+            <li><a href="./social"><img src="../../components/footer/assets/images/instagram.png" alt=""></a></li>
+            <li><a href="./social"><img src="../../components/footer/assets/images/image 40.png" alt=""></a></li>
+            <li><a href="./social"><img src="../../components/footer/assets/images/twitter-square.png" alt=""></a></li>
+            <li><a href="./social"><img src="../../components/footer/assets/images/youtube-square.png" alt=""></a></li>
         </ul>
         <div class="map">
-            <img src="/Week 5/components/footer/assets/images/Rectangle 51.png" alt="">
+            <img src="../../components/footer/assets/images/Rectangle 51.png" alt="">
         </div>
     </div>
 </div>
