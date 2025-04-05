@@ -1,0 +1,57 @@
+<link rel="stylesheet" href="/Week 5/components/assets/styles/style.css">
+<link rel="stylesheet" href="/Week 5/components/header/assets/styles/header.css">
+<div class="header-top">
+    <div class="socials">
+        <ul>
+            <li><a href="./social"><img src="/Week 5/components/header/assets/images/facebook-square.png" alt=""></a>
+            </li>
+            <li><a href="./social"><img src="/Week 5/components/header/assets/images/instagram.png" alt=""></a></li>
+            <li><a href="./social"><img src="/Week 5/components/header/assets/images/image 40.png" alt=""></a></li>
+            <li><a href="./social"><img src="/Week 5/components/header/assets/images/twitter-square.png" alt=""></a>
+            </li>
+            <li><a href="./social"><img src="/Week 5/components/header/assets/images/youtube-square.png" alt=""></a>
+            </li>
+        </ul>
+    </div>
+    <div class="language">
+        <img src="/Week 5/components/header/assets/images/image 2.png" alt="">
+    </div>
+</div>
+<div class="header-bot">
+    <div class="logo">
+        <img src="/Week 5/components/header/assets/images/LOGO không nền 1.png" alt="">
+    </div>
+    <div class="nav-bar">
+        <ul>
+            <li><a href="./social">Về RINKU</a></li>
+            <li><a href="./social">Du học Nhật Bản</a></li>
+            <li><a href="./social">Xuất khẩu lao động Nhật Bản
+                    <svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M15.3441 0.657983C15.4204 0.575575 15.5102 0.51115 15.6084 0.468388C15.7065 0.425625 15.811 0.40536 15.916 0.408753C16.021 0.412146 16.1243 0.439129 16.2202 0.488161C16.3161 0.537193 16.4025 0.607314 16.4746 0.694521C16.5468 0.781727 16.6032 0.884312 16.6406 0.996417C16.678 1.10852 16.6958 1.22795 16.6928 1.34789C16.6898 1.46782 16.6662 1.58592 16.6233 1.69542C16.5804 1.80493 16.519 1.90371 16.4427 1.98612L9.24689 9.75032C9.09844 9.91066 8.9019 10 8.69761 10C8.49332 10 8.29678 9.91066 8.14833 9.75032L0.951755 1.98612C0.873752 1.90425 0.810763 1.8055 0.766449 1.69559C0.722136 1.58568 0.69738 1.4668 0.693619 1.34587C0.689858 1.22493 0.707169 1.10435 0.744543 0.991126C0.781917 0.877899 0.838611 0.774285 0.911331 0.686302C0.984053 0.59832 1.07135 0.527722 1.16816 0.47861C1.26496 0.429498 1.36934 0.402851 1.47524 0.400216C1.58113 0.397581 1.68643 0.419011 1.78502 0.463261C1.8836 0.507512 1.9735 0.573701 2.04951 0.657983L8.69761 7.83028L15.3441 0.657983Z"
+                            fill="#27272A" />
+                    </svg>
+                </a></li>
+            <li><a href="./social">Tin tức</a></li>
+            <li><a href="./social">Liên hệ</a></li>
+            <li><a href="./social">Tuyển dụng</a></li>
+        </ul>
+        <div class="search">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_1_132)">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M9.62499 1.83334C8.38253 1.83344 7.15811 2.13067 6.05389 2.70022C4.94967 3.26977 3.99766 4.09513 3.27729 5.10744C2.55692 6.11975 2.08908 7.28965 1.9128 8.51954C1.73653 9.74943 1.85693 11.0036 2.26395 12.1775C2.67098 13.3514 3.35283 14.411 4.25262 15.2678C5.15241 16.1245 6.24405 16.7537 7.43646 17.1028C8.62887 17.4519 9.88747 17.5108 11.1073 17.2745C12.327 17.0383 13.4726 16.5137 14.4485 15.7447L17.7962 19.0923C17.969 19.2593 18.2006 19.3517 18.4409 19.3496C18.6813 19.3475 18.9112 19.2511 19.0812 19.0812C19.2511 18.9112 19.3475 18.6813 19.3496 18.441C19.3517 18.2006 19.2593 17.9691 19.0923 17.7962L15.7447 14.4485C16.6503 13.2996 17.2142 11.9189 17.3718 10.4644C17.5294 9.00997 17.2744 7.54052 16.6359 6.22426C15.9973 4.90799 15.0011 3.79808 13.7613 3.02155C12.5214 2.24502 11.088 1.83324 9.62499 1.83334ZM3.66665 9.625C3.66665 8.04475 4.29441 6.52923 5.41181 5.41182C6.52921 4.29442 8.04474 3.66667 9.62499 3.66667C11.2052 3.66667 12.7208 4.29442 13.8382 5.41182C14.9556 6.52923 15.5833 8.04475 15.5833 9.625C15.5833 11.2053 14.9556 12.7208 13.8382 13.8382C12.7208 14.9556 11.2052 15.5833 9.62499 15.5833C8.04474 15.5833 6.52921 14.9556 5.41181 13.8382C4.29441 12.7208 3.66665 11.2053 3.66665 9.625Z"
+                    fill="#27272A" />
+                </g>
+                <defs>
+                    <clipPath id="clip0_1_132">
+                        <rect width="22" height="22" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
+        </div>
+    </div>
+    <div class="consult">
+        <p>Tư vấn ngay</p>
+    </div>
+</div>
