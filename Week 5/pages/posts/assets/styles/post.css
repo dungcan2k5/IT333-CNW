@@ -1,0 +1,66 @@
+.main-content {
+    margin: 0 256px;
+}
+.main-content h1 {
+    text-align: center;
+    margin: 64px 0;
+    font-weight: 700;
+    font-size: 32px;
+    color: #0a689e;
+}
+
+.academy-image {
+    display: block;
+    margin: 0 auto 32px auto;
+}
+
+.main-content p {
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #27272a;
+}
+
+.main-content h2 {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #0a689e;
+}
+
+.equipment-image {
+    display: block;
+    margin: 16px auto 0 auto;
+}
+
+.equipment-caption {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #27272a;
+}
+
+.main-content h3 {
+    margin-bottom: 16px;
+}
+.main-content h3 :last-child {
+    margin-top: -32px;
+}
+
+.process {
+    display: block;
+    margin: 16px auto 32px auto;
+}
+
+.fee {
+    display: block;
+    margin: 16px auto 16px auto;
+}
+
+.note {
+    margin-top: 32px;
+    padding-bottom: 32px;
+}
