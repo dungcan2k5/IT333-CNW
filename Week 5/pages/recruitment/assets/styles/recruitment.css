@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.banner {
+    margin-bottom: 32px;
+}
+
+.main-content {
+    margin: 0 256px;
+}
+
+.title {
+    margin-top: 64px;
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #0a689e;
+}
+
+.main-content > ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.post > h2 {
+    height: 32px;
+    margin-top: 16.46px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #27272a;
+}
+
+.post > p {
+    margin-top: 16.07px;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 30px;
+    color: #27272a;
+}
+
+.post a {
+    text-decoration: none;
+}
+
+.post button {
+    padding: 8px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 162px;
+    height: 41px;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    margin: 16px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.post button:hover {
+    background-color: #0a689e;
+}
+
+.post button > p {
+    width: 96;
+    height: 25;
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 18px;
+    color: #0a689e;
+    transition: color fill 0.3s ease;
+}
+
+.post button:hover > p {
+    color: #fff;
+}
+.post button:hover path {
+    fill: #fff;
+}
+
+.move-page {
+    margin: 32px 0 64px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.move-page > ul{
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 0;
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.move-page li:hover {
+    background-color: #f8f9fa;
+}
+
+
+
+.move-page li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 36px;
+    box-shadow: 0 0 0 0.5px #DEE2E6;
+
+}
+
+.move-page li:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.move-page li:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
