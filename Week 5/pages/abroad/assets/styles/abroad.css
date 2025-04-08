@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.banner {
+    margin-bottom: 32px;
+}
+
+.main-content {
+    margin: 0 256px;
+}
+
+.title {
+    margin-top: 64px;
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #0a689e;
+}
+
+.main-content ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.post > h2 {
+    height: 64px;
+    margin-top: 16.46px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #27272a;
+}
+
+.main-content li:nth-child(1) h2,
+.main-content li:nth-child(2) h2,
+.main-content li:nth-child(3) h2 {
+    height: 32px;
+}
+
+.post > p {
+    margin-top: 16.07px;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 30px;
+    color: #27272a;
+}
+
+.post a {
+    text-decoration: none;
+}
+
+.post button {
+    padding: 8px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 162px;
+    height: 41px;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    margin: 16px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.post button:hover {
+    background-color: #0a689e;
+}
+
+.post button > p {
+    width: 96;
+    height: 25;
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 18px;
+    color: #0a689e;
+    transition: color fill 0.3s ease;
+}
+
+.post button:hover > p {
+    color: #fff;
+}
+.post button:hover path {
+    fill: #fff;
+}
